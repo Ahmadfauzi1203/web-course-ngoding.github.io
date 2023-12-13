@@ -20,7 +20,7 @@ function App() {
         <Route path="/syaratketen" Component={SyaratKetenPage} />
         <Route path="/testimonial" Component={TestimonialPage} />
       </Routes>
-      {/* <FooterComponent /> */}
+      <FooterComponent />
     </div>
   );
 }
