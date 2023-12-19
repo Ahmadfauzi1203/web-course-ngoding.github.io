@@ -7,12 +7,16 @@ const FaqComponent = () => {
       <Container>
         <Row>
           <Col>
-            <h2 className="text-center fw-bold">
+            <h2 className="text-center fw-bold animate__animated animate__fadeInUp animate__delay-1s">
               Pertanyaan yang sering ditanyakan
             </h2>
           </Col>
         </Row>
-        <Row className="row-cols-lg-2 row-cos-1 g-4 pt-5">
+        <Row
+          className="row-cols-lg-2 row-cos-1 g-4 pt-5"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           {faq.map((data) => {
             return (
               <Col key={data.id}>
